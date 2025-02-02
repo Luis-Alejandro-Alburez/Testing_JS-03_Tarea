@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertidor de Medidas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Convertidor de Medidas</h1>
+      <div class="input-group">
+        <input type="number" id="cantidad" placeholder="Ingrese la cantidad" />
+        <select id="medida">
+          <option value="galones">Galones</option>
+          <option value="litros">Litros</option>
+          <option value="botellas">Botellas</option>
+        </select>
+      </div>
+      <button id="convertir">Convertir</button>
+      <div class="resultados">
+        <div class="conversion">
+          <img src="resources/litro Icon.png" alt="Litros" />
+          <p id="litros">0 Litros</p>
+        </div>
+        <div class="conversion">
+          <img src="resources/Galon Icon.png" alt="Galones" />
+          <p id="galones">0 Galones</p>
+        </div>
+        <div class="conversion">
+          <img src="resources/botella.png" alt="Botellas" />
+          <p id="botellas">0 Botellas</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
